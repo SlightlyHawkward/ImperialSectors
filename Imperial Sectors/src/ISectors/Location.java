@@ -86,7 +86,7 @@ public class Location extends Component{
 		} else {
 			if(!selected && TurnManager.isReachable(this)) {
 				g.setColor(Color.blue);
-				g.fillRect(bounds.x + border, bounds.y + border, bounds.width - (2 * border), bounds.height - (2 * border));
+				g.fillRect(bounds.x + 1, bounds.y + 1, bounds.width - (2 * 1), bounds.height - (2 * 1));
 			} else {
 				g.setColor(Color.DARK_GRAY);
 				g.fillRect(bounds.x + border, bounds.y + border, bounds.width - (2 * border), bounds.height - (2 * border));
